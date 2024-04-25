@@ -8,11 +8,11 @@ import os
 
 class bot(object):
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("20455552")
+    API_HASH = os.environ.get("64d098445f3a1aac0613716f5f7cc84e")
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = os.environ.get("7053569826:AAE5eSvNkiBdF1oZgpyRRFYdBi7kDUoBdrs")
 
 class dm(object):
     # add admins Id list by space separated (Optional)
@@ -87,9 +87,9 @@ class settings(object):
 
     SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
 
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 1374857816, "ZORO"
 
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://t.me/ACE_manga"
 
     REFER_BETA = False if os.environ.get("REFER_BETA", "False") == "False" else True
 
